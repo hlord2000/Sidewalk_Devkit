@@ -5,6 +5,129 @@
 	(uuid "edbefad6-36a7-42f8-a175-633d45dbc5bc")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -1054,6 +1177,209 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3144,10 +3470,28 @@
 		(uuid "1effeeec-95f9-4a05-bec1-9a5e6be3dc71")
 	)
 	(junction
+		(at 81.28 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02c41a16-9a02-4088-b0c7-42e3081452b7")
+	)
+	(junction
+		(at 109.22 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "053eeae4-29a7-4e34-88be-e28b13deb173")
+	)
+	(junction
 		(at 106.68 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b8619a5-fa19-4dfa-964c-103526b5e549")
+	)
+	(junction
+		(at 105.41 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d4f2a4f-8a4d-4358-8af5-8714b7b6b97d")
 	)
 	(junction
 		(at 193.04 137.16)
@@ -3174,10 +3518,22 @@
 		(uuid "215a55c2-b2dd-456b-81b4-e1ba9315f8fa")
 	)
 	(junction
+		(at 115.57 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23481ce8-e5ae-41fe-9a17-2d45e3318d2a")
+	)
+	(junction
 		(at 186.69 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2597c052-12d3-4c21-924e-fc96f1d0792d")
+	)
+	(junction
+		(at 193.04 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27921f08-85be-4385-a98a-b9d88c3b051d")
 	)
 	(junction
 		(at 151.13 66.04)
@@ -3196,6 +3552,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b1db20a-93c4-476a-b932-2cb584edd3a1")
+	)
+	(junction
+		(at 186.69 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "403de2b0-4859-43b9-bd1c-da534bcc66fe")
 	)
 	(junction
 		(at 198.12 101.6)
@@ -3220,6 +3582,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55b8fd50-6dc0-4a4d-817f-60325a5987d9")
+	)
+	(junction
+		(at 205.74 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c6c206d-dc78-4f63-b014-774dddd166c8")
 	)
 	(junction
 		(at 214.63 116.84)
@@ -3270,6 +3638,12 @@
 		(uuid "b6f34f19-6982-41ba-bec9-0ca7c751437d")
 	)
 	(junction
+		(at 198.12 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9068002-74e7-4e3e-89e4-af0ccbcba84b")
+	)
+	(junction
 		(at 157.48 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3280,6 +3654,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db907525-0aaa-47aa-9d61-cfe4dc475b48")
+	)
+	(junction
+		(at 201.93 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e39bc9f1-63d3-4332-a5ac-9dcc75f95662")
+	)
+	(junction
+		(at 190.5 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e82638ca-f258-4a66-a3b2-34ff4d9e30a1")
 	)
 	(junction
 		(at 81.28 73.66)
@@ -3300,14 +3686,6 @@
 		(uuid "fd1229ee-0096-4e04-830b-19c2849ccdda")
 	)
 	(no_connect
-		(at 115.57 99.06)
-		(uuid "07075628-92d6-4f44-a721-290862b99382")
-	)
-	(no_connect
-		(at 115.57 93.98)
-		(uuid "0d2330c5-790f-4560-ad39-923198766a39")
-	)
-	(no_connect
 		(at 115.57 109.22)
 		(uuid "0e7980bb-c0b2-4e79-bd29-dbfdfb0c33f0")
 	)
@@ -3318,10 +3696,6 @@
 	(no_connect
 		(at 71.12 104.14)
 		(uuid "212863e6-77aa-411a-9ec4-98ee8b9264cc")
-	)
-	(no_connect
-		(at 115.57 96.52)
-		(uuid "24276b26-8386-4e14-8d2b-f9716ba1a54e")
 	)
 	(no_connect
 		(at 115.57 114.3)
@@ -3373,7 +3747,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 88.9) (xy 209.55 88.9)
+			(xy 186.69 88.9) (xy 201.93 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3403,6 +3777,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 142.24) (xy 193.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b86c618-07b5-4129-ad6b-69774922dbba")
+	)
+	(wire
+		(pts
 			(xy 91.44 73.66) (xy 81.28 73.66)
 		)
 		(stroke
@@ -3423,7 +3807,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 137.16) (xy 210.82 137.16)
+			(xy 193.04 137.16) (xy 205.74 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3440,6 +3824,16 @@
 			(type default)
 		)
 		(uuid "1359db97-7da2-49a3-9cc6-e76d249a8eba")
+	)
+	(wire
+		(pts
+			(xy 186.69 139.7) (xy 186.69 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14204786-f7ee-45f2-a263-73923a2b0ffd")
 	)
 	(wire
 		(pts
@@ -3463,7 +3857,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 119.38) (xy 115.57 119.38)
+			(xy 105.41 119.38) (xy 109.22 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3523,6 +3917,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 121.92) (xy 115.57 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1416ca-c57e-4fd4-8165-da6c2b5d61d4")
+	)
+	(wire
+		(pts
 			(xy 106.68 73.66) (xy 96.52 73.66)
 		)
 		(stroke
@@ -3540,6 +3944,26 @@
 			(type default)
 		)
 		(uuid "42e0e7da-e465-4ac9-aee6-2e74b4d9c055")
+	)
+	(wire
+		(pts
+			(xy 109.22 119.38) (xy 115.57 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485896c1-d435-468b-9d76-d3a68a71b99a")
+	)
+	(wire
+		(pts
+			(xy 201.93 88.9) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4ec387-88fa-4a2d-906f-924b17803ebf")
 	)
 	(wire
 		(pts
@@ -3570,6 +3994,16 @@
 			(type default)
 		)
 		(uuid "5a3cc993-8ec5-4b4d-a57c-64f9d28c0dc2")
+	)
+	(wire
+		(pts
+			(xy 81.28 38.1) (xy 93.98 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce4db0b-cc26-4c31-adb0-a1cdf75ffd77")
 	)
 	(wire
 		(pts
@@ -3643,7 +4077,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 124.46) (xy 204.47 124.46)
+			(xy 190.5 101.6) (xy 198.12 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73fd77b3-ece5-402f-9715-49d4faf61d9d")
+	)
+	(wire
+		(pts
+			(xy 193.04 124.46) (xy 198.12 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3683,7 +4127,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 101.6) (xy 198.12 101.6)
+			(xy 186.69 101.6) (xy 190.5 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3760,6 +4204,16 @@
 			(type default)
 		)
 		(uuid "9e583af3-fb95-4f28-88a3-076ae3fee88f")
+	)
+	(wire
+		(pts
+			(xy 115.57 101.6) (xy 115.57 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dd72d6-fc68-49c1-9a8c-dfe4e67be018")
 	)
 	(wire
 		(pts
@@ -3853,6 +4307,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 120.65) (xy 198.12 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7088ba3-eecc-4e4c-8818-0525b3e0720e")
+	)
+	(wire
+		(pts
 			(xy 157.48 60.96) (xy 170.18 60.96)
 		)
 		(stroke
@@ -3863,7 +4327,37 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 121.92) (xy 115.57 121.92)
+			(xy 190.5 100.33) (xy 190.5 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97337da-d282-4e65-9cb9-61678440cdd7")
+	)
+	(wire
+		(pts
+			(xy 67.31 38.1) (xy 81.28 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9935284-8a2a-4801-85e9-dd96e8e0b056")
+	)
+	(wire
+		(pts
+			(xy 105.41 121.92) (xy 105.41 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1ecbc3-49bb-48ce-95cc-f90506ac0d3e")
+	)
+	(wire
+		(pts
+			(xy 92.71 121.92) (xy 105.41 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3883,6 +4377,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 124.46) (xy 204.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46a0414-7f10-4386-9e58-a34f48e362d6")
+	)
+	(wire
+		(pts
 			(xy 199.39 102.87) (xy 199.39 101.6)
 		)
 		(stroke
@@ -3890,6 +4394,16 @@
 			(type default)
 		)
 		(uuid "f8065521-5665-405b-bad6-35235e84fc91")
+	)
+	(wire
+		(pts
+			(xy 205.74 137.16) (xy 210.82 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8182937-8f51-43e8-8ec8-62628be2df45")
 	)
 	(wire
 		(pts
@@ -3961,15 +4475,35 @@
 		)
 		(uuid "2ccb33ba-4831-414f-bf98-d3f43ae5ae14")
 	)
-	(label "NTC"
-		(at 186.69 139.7 0)
+	(label "LED2"
+		(at 93.98 43.18 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "3aa70634-c8ba-418a-acc8-bd0a14211456")
+		(uuid "472aff2f-9a42-4e5d-a845-36b01bdbdcb0")
+	)
+	(label "LED1"
+		(at 81.28 43.18 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "47d4b29a-963b-420b-80f0-b59e9f07e4ec")
+	)
+	(label "LED0"
+		(at 67.31 43.18 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4fd424f1-59b8-4803-b9ea-ad1c4c47bcb9")
 	)
 	(label "D+"
 		(at 86.36 91.44 0)
@@ -3981,6 +4515,26 @@
 		)
 		(uuid "5e15b1e7-a22f-4a23-ad66-961ffeb5cfbf")
 	)
+	(label "VSYS"
+		(at 182.88 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a3ef0e3-fe43-488c-9ca7-4dcdfdfe5ec1")
+	)
+	(label "VSYS"
+		(at 67.31 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76150248-9624-4d43-88ef-c160e050142f")
+	)
 	(label "VBUSIN"
 		(at 106.68 73.66 180)
 		(effects
@@ -3990,6 +4544,16 @@
 			(justify right bottom)
 		)
 		(uuid "87878065-6940-4a1e-8f73-b496e075a53b")
+	)
+	(label "LED2"
+		(at 115.57 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8bf8b6f4-fdfe-4329-a111-c5c4a0abf641")
 	)
 	(label "D-"
 		(at 71.12 88.9 0)
@@ -4010,6 +4574,16 @@
 			(justify left bottom)
 		)
 		(uuid "b36f634a-c9e0-4a2e-b938-e91f95c5c65c")
+	)
+	(label "LED0"
+		(at 115.57 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd036795-8d82-4517-88c1-190fa793abeb")
 	)
 	(label "SDA"
 		(at 115.57 119.38 180)
@@ -4050,6 +4624,16 @@
 			(justify left bottom)
 		)
 		(uuid "ed4e2ab5-4e0e-4094-ad3f-4065bdd41930")
+	)
+	(label "LED1"
+		(at 115.57 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb614511-3eb9-4e5f-b497-a0dd0ad17d87")
 	)
 	(label "CC2"
 		(at 71.12 81.28 0)
@@ -4226,6 +4810,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 227.33 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3b64335c-a563-4d2a-bd2c-d95a958292bb")
 		)
@@ -4236,6 +4831,267 @@
 			(project "Sidewalk_Devkit"
 				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "04672db7-f306-406c-9c2d-bb438f4fe56d")
+		(property "Reference" "TP11"
+			(at 109.22 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 110.4899 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 114.3 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "956b0c0b-934d-41b6-8df6-b26e9bc412c7")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 67.31 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "04916199-67ee-4f22-b970-86f1a29cadb2")
+		(property "Reference" "D2"
+			(at 64.77 39.3064 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Red"
+			(at 64.77 41.8464 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 67.31 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 67.31 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 67.31 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 67.31 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89851a02-c996-4e08-a36c-00fbec65e678")
+		)
+		(pin "2"
+			(uuid "56189121-00de-402e-bd5f-86d902448569")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 115.57 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "049773cf-2a3c-4a24-bdc3-4347a69d86e8")
+		(property "Reference" "TP13"
+			(at 110.49 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 110.49 100.3301 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 115.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 115.57 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16fddbd3-7171-4f3a-8807-06ecd4b68e34")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -4376,6 +5232,17 @@
 		)
 		(property "Description" ""
 			(at 182.88 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 182.88 58.42 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4621,6 +5488,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C516069"
+			(at 93.98 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1f9cdc3d-ad6c-42ca-a685-796e14c0dd93")
 		)
@@ -4702,6 +5580,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C467016"
+			(at 142.24 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ce6092fc-7e62-412d-8970-ed37e71731f3")
 		)
@@ -4774,6 +5663,17 @@
 		)
 		(property "Description" ""
 			(at 193.04 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23630"
+			(at 193.04 139.7 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4941,6 +5841,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 106.68 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d9ad957-c6d1-4267-acaa-113e208f998e")
 		)
@@ -4951,6 +5862,164 @@
 			(project "Sidewalk_Devkit"
 				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 170.18 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "3a358f3d-5daa-4c41-bbff-4da0bfdd18a8")
+		(property "Reference" "TP5"
+			(at 170.18 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 171.4499 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 175.26 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 170.18 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94bf11e4-df36-4f5d-9c13-8d6190570118")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 186.69 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "3be29235-f6e9-4ac7-ac33-cde0efb4a326")
+		(property "Reference" "TP6"
+			(at 186.69 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 185.4201 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 181.61 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 186.69 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3009c050-2cfa-49f0-95f3-e613d57eee6a")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -5099,6 +6168,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 209.55 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "125c347b-2ce3-4b00-a902-cc7c56e869ba")
 		)
@@ -5169,6 +6249,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 55.88 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C165948"
 			(at 55.88 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5305,6 +6396,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C270344"
+			(at 92.71 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ad40d367-1fb5-40cb-85f6-0f1bd06682e0")
 		)
@@ -5315,6 +6417,267 @@
 			(project "Sidewalk_Devkit"
 				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 214.63 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "5160ca8d-f7dc-4f72-958a-fdeef66b79f9")
+		(property "Reference" "TP9"
+			(at 214.63 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 215.8999 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 219.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 214.63 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c0018fe-b43b-4e04-b31b-8a60d3c7e1a3")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "5f9474fe-5afb-452e-84ff-0d9ed7a0c2b8")
+		(property "Reference" "TP8"
+			(at 195.58 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 195.58 101.5999 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 190.5 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "875fe14b-8244-4ded-a4ba-1460c99f354d")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 81.28 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ffeac64-20ca-4d6d-97d6-9eb7a65e546e")
+		(property "Reference" "D3"
+			(at 78.74 39.3064 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Green"
+			(at 78.74 41.8464 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 81.28 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 81.28 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19189745"
+			(at 81.28 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 81.28 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85013214-7fd4-4ade-957e-4f3834a2bd5c")
+		)
+		(pin "2"
+			(uuid "a9f7ce55-2d7f-4656-8c24-70610cd18290")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5380,6 +6743,17 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
+			(at 81.28 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15999"
 			(at 81.28 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5561,6 +6935,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 214.63 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "982a00e0-a4ad-48ba-8f5c-1c2f29e95a74")
 		)
@@ -5571,6 +6956,109 @@
 			(project "Sidewalk_Devkit"
 				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 93.98 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "63596160-bc63-4397-950e-488abd5d0386")
+		(property "Reference" "D4"
+			(at 91.44 39.3064 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Blue"
+			(at 91.44 41.8464 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 93.98 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 93.98 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C965807"
+			(at 93.98 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3cf5990-1058-46b9-826b-cfc2a24ebf5c")
+		)
+		(pin "2"
+			(uuid "0520c553-d934-4fb1-b00f-4e8b30b788c7")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -5641,6 +7129,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 198.12 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6e7f85ef-800a-4780-9672-4027844e0824")
 		)
@@ -5651,6 +7150,85 @@
 			(project "Sidewalk_Devkit"
 				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 198.12 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "64ed8e80-0ef1-4d10-8f50-0bec09b64225")
+		(property "Reference" "TP10"
+			(at 203.2 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 203.2 121.9199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 198.12 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 198.12 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d14d4d2a-8c04-4724-9d37-3424c53f6f10")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -5713,6 +7291,17 @@
 		)
 		(property "Description" ""
 			(at 170.18 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 170.18 58.42 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5793,6 +7382,17 @@
 		)
 		(property "Description" ""
 			(at 186.69 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C412023"
+			(at 186.69 91.44 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6038,6 +7638,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C138139"
+			(at 85.09 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab90d058-e28c-43cc-95ff-1c547cfb4dc3")
 		)
@@ -6272,6 +7883,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7466043"
+			(at 151.13 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "24"
 			(uuid "28e84f73-7440-4bae-917a-267ae060a624")
 		)
@@ -6445,6 +8067,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15849"
+			(at 195.58 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8cd4ad3a-6ff5-4654-b990-55b5dad7fbfa")
 		)
@@ -6594,6 +8227,17 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 105.41 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C270344"
 			(at 105.41 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6918,6 +8562,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 204.47 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "98479cb9-351c-4468-af67-ad07471ae88a")
 		)
@@ -7012,6 +8667,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 205.74 137.16 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "bedb02f5-34a5-4a36-8ac8-d902a0711c6a")
+		(property "Reference" "TP3"
+			(at 205.74 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 204.4701 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 200.66 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 205.74 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e20b7d08-77ec-4eb4-b481-a76f4099831b")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
 		(at 215.9 137.16 0)
 		(unit 1)
@@ -7068,6 +8802,17 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 215.9 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5118738"
 			(at 215.9 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7232,6 +8977,17 @@
 		)
 		(property "Description" ""
 			(at 96.52 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C274343"
+			(at 96.52 132.08 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7555,6 +9311,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C412023"
+			(at 186.69 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "09fdf857-5451-4f44-9c65-d5a3122445fc")
 		)
@@ -7635,6 +9402,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 157.48 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eb24e52d-522e-4974-8674-92d9140d0e10")
 		)
@@ -7645,6 +9423,164 @@
 			(project "Sidewalk_Devkit"
 				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 115.57 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "e8f7f525-30ab-42e2-918f-972497921328")
+		(property "Reference" "TP4"
+			(at 115.57 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 116.8399 68.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 120.65 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 115.57 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77c52e9e-80bd-4c7a-8793-0b5b6b52c0f2")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "ea29beea-9a01-4aad-9e12-3d04fe2e6b56")
+		(property "Reference" "TP12"
+			(at 100.33 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 100.33 121.9201 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 105.41 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b1625ca-2b9f-48de-9ce2-28ab298c0f13")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -7715,6 +9651,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 193.04 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c28db77d-04a8-4166-909b-e43df31a55d0")
 		)
@@ -7730,21 +9677,99 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 201.93 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "fb33d5fe-e408-4beb-9285-8d3d81b607a6")
+		(property "Reference" "TP7"
+			(at 201.93 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 203.1999 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 207.01 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 201.93 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c2c272d-a525-49f9-b23a-38421b1659ca")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(group "nPM1300-QEXX Config 1"
 		(uuid "1ed27426-c131-4711-add3-15a1d07f3cce")
 		(lib_id "nPM:nPM1300-QEXX Config 1")
 		(members "0020761f-d343-4cf1-b38b-f21161f4b63f" "02885142-f10d-4d7a-9b40-2c2ab099a55a"
 			"03460ccd-2dd3-4c78-86a5-8ee789340369" "038225cd-4cfc-41cd-9468-8829694673e9"
-			"06919db8-4311-4cc3-8bc2-a10f92057053" "0701fcc9-b278-474f-8913-4364c3ca4d57"
-			"0b65e6c7-1297-469f-a306-2b45bb824c97" "0cc13627-eb82-415e-bcd9-efa9824520fe"
-			"0f50da6a-021b-4dfc-8eab-539f97ce698f" "0f8581a2-6c37-4d14-8971-8d79bf5200bc"
-			"14262210-4444-4dbd-8732-94cdddaf31a0" "1ba2346e-0be5-4b61-bda3-9f511a69a683"
-			"1bb4b868-cbb3-4fa8-88d5-2f282f76050f" "1dc7be0a-4c61-4d0b-b396-7bea1522c5da"
-			"1effeeec-95f9-4a05-bec1-9a5e6be3dc71" "215a55c2-b2dd-456b-81b4-e1ba9315f8fa"
-			"22da79c8-8d15-4d4d-a755-967bfc62f35f" "24d0d1b6-b026-403a-b643-43bf21e88b71"
-			"2597c052-12d3-4c21-924e-fc96f1d0792d" "270e0c6f-f43f-42bb-82a0-744e448f9738"
-			"27c8b9e8-8fd3-4b56-87f0-89748b85ce84" "2d0d47bb-c88e-4c27-ab3f-a1735a60c39e"
-			"38c2dc26-3317-4bd7-a1b5-dd5ba27b40be" "3aa70634-c8ba-418a-acc8-bd0a14211456"
+			"06919db8-4311-4cc3-8bc2-a10f92057053" "0b65e6c7-1297-469f-a306-2b45bb824c97"
+			"0cc13627-eb82-415e-bcd9-efa9824520fe" "0f50da6a-021b-4dfc-8eab-539f97ce698f"
+			"0f8581a2-6c37-4d14-8971-8d79bf5200bc" "14262210-4444-4dbd-8732-94cdddaf31a0"
+			"1ba2346e-0be5-4b61-bda3-9f511a69a683" "1bb4b868-cbb3-4fa8-88d5-2f282f76050f"
+			"1dc7be0a-4c61-4d0b-b396-7bea1522c5da" "1effeeec-95f9-4a05-bec1-9a5e6be3dc71"
+			"215a55c2-b2dd-456b-81b4-e1ba9315f8fa" "22da79c8-8d15-4d4d-a755-967bfc62f35f"
+			"24d0d1b6-b026-403a-b643-43bf21e88b71" "2597c052-12d3-4c21-924e-fc96f1d0792d"
+			"270e0c6f-f43f-42bb-82a0-744e448f9738" "27c8b9e8-8fd3-4b56-87f0-89748b85ce84"
+			"2d0d47bb-c88e-4c27-ab3f-a1735a60c39e" "38c2dc26-3317-4bd7-a1b5-dd5ba27b40be"
 			"3abcdea5-d578-4477-b23e-6982c4c0b9ae" "3b48a189-eb3a-4b08-9d82-dc6a0e63dbb8"
 			"464a37e7-b230-4cff-910f-04d9b9d269d0" "47691ee9-aa57-46c6-8ef7-8cf3885e8f03"
 			"4b95664c-52b8-465a-981e-8b5d03609aee" "55b8fd50-6dc0-4a4d-817f-60325a5987d9"
@@ -7758,14 +9783,15 @@
 			"7ab439b7-3ff4-4793-a6c8-5b1cc721f2b5" "7c3d4cf9-ce14-49f5-a994-b1b5c4494384"
 			"800d59d1-32f4-4339-b7ab-7b9348318d30" "83a1fa97-84fe-4ed6-acda-ed8b425cb875"
 			"850db5fc-6845-4c91-8646-d96ef51071e8" "87878065-6940-4a1e-8f73-b496e075a53b"
-			"8da24da8-b33b-4e6f-9843-26475d435f4d" "95597e09-3d70-4bb9-862a-02ef2a565eb5"
-			"956988c6-27f0-4d90-9588-fa83f34e8506" "95e9d82b-c324-478f-89ba-e5f8df097972"
-			"9e57b754-50c2-46dd-9b81-d6e956d854d9" "9f11ea3e-729e-4655-9056-6fe01391cdca"
-			"a2060893-ff8e-4951-b5a3-9c2f8ff6588e" "a50c67d7-9dcc-4cb9-bd50-0fcbc95b01db"
-			"a5c18f66-0238-4b1a-83df-dacc533ae6c3" "a5ff4e7e-8630-4e47-9ad4-d9778bd95e53"
-			"abde94eb-6e2b-4599-bc48-023cd35b5558" "b3f5da33-6c6a-4988-9c61-60075622d657"
-			"b6f34f19-6982-41ba-bec9-0ca7c751437d" "b904f744-db3d-4e6d-bc55-4a75fcad8959"
-			"bb61f741-d12b-4615-a9dc-2de6f485e79a" "bbacb667-f94c-4744-a07d-b0f4542016d4"
+			"8bf8b6f4-fdfe-4329-a111-c5c4a0abf641" "8da24da8-b33b-4e6f-9843-26475d435f4d"
+			"95597e09-3d70-4bb9-862a-02ef2a565eb5" "956988c6-27f0-4d90-9588-fa83f34e8506"
+			"95e9d82b-c324-478f-89ba-e5f8df097972" "9e57b754-50c2-46dd-9b81-d6e956d854d9"
+			"9f11ea3e-729e-4655-9056-6fe01391cdca" "a2060893-ff8e-4951-b5a3-9c2f8ff6588e"
+			"a50c67d7-9dcc-4cb9-bd50-0fcbc95b01db" "a5c18f66-0238-4b1a-83df-dacc533ae6c3"
+			"a5ff4e7e-8630-4e47-9ad4-d9778bd95e53" "abde94eb-6e2b-4599-bc48-023cd35b5558"
+			"b3f5da33-6c6a-4988-9c61-60075622d657" "b6f34f19-6982-41ba-bec9-0ca7c751437d"
+			"b904f744-db3d-4e6d-bc55-4a75fcad8959" "bb61f741-d12b-4615-a9dc-2de6f485e79a"
+			"bbacb667-f94c-4744-a07d-b0f4542016d4" "bd036795-8d82-4517-88c1-190fa793abeb"
 			"bda53a1a-3508-4761-8238-66412ca81802" "bdfd0739-a854-49b5-bb4b-62e2d9bcfe10"
 			"bfce6211-37fa-458c-9e92-5ca54887329c" "c2c73786-72d7-4a71-a477-410129edc49e"
 			"c59908a7-c910-4451-88bb-4e81d53eb04c" "c63d9776-5a41-4c13-aa49-594d458670bf"
@@ -7774,7 +9800,8 @@
 			"db1140c8-6789-4859-98d7-781477d3533e" "def6c887-6eef-4437-aefc-c845ae97e90d"
 			"e736afae-6e10-4c8e-b5a7-b11ee928135f" "eb517e29-eca1-46a0-982c-b1d58b3fad76"
 			"ec5ecc5a-cd24-4e3d-86a8-260a2083ee55" "eeebe994-4335-413c-a486-872ca96eebbb"
-			"fbedbb78-83b9-45c6-b6fb-94dce9110b0a" "fd1229ee-0096-4e04-830b-19c2849ccdda"
+			"fb614511-3eb9-4e5f-b497-a0dd0ad17d87" "fbedbb78-83b9-45c6-b6fb-94dce9110b0a"
+			"fd1229ee-0096-4e04-830b-19c2849ccdda"
 		)
 	)
 	(group "USB-C Receptacle with ESD + 1A fuse"

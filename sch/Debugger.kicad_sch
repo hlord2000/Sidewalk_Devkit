@@ -214,6 +214,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -610,6 +733,209 @@
 						(effects
 							(font
 								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2917,10 +3243,22 @@
 		(uuid "493b23e9-26df-447e-8f2f-effacaaddef1")
 	)
 	(junction
+		(at 76.2 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cd19028-3206-4c89-85ce-0a31882b6ae0")
+	)
+	(junction
 		(at 63.5 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e7166d6-a351-43a9-8022-20fe65218554")
+	)
+	(junction
+		(at 232.41 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d9e3536-2a12-4c39-ba56-e5039c2b6071")
 	)
 	(junction
 		(at 154.94 44.45)
@@ -2971,10 +3309,6 @@
 		(uuid "f171bc71-2fd6-465a-874e-ad8cc9dbc4dd")
 	)
 	(no_connect
-		(at 88.9 138.43)
-		(uuid "019f0e39-646e-479c-b267-1e3b5f4ee16b")
-	)
-	(no_connect
 		(at 88.9 130.81)
 		(uuid "2be874c6-413d-4e98-91eb-32c7ed19f2fa")
 	)
@@ -2985,6 +3319,10 @@
 	(no_connect
 		(at 88.9 151.13)
 		(uuid "35b7bf9d-fa16-4833-8964-289d248f1eac")
+	)
+	(no_connect
+		(at 88.9 138.43)
+		(uuid "4a0eb255-8c67-440a-9709-642533a08b7b")
 	)
 	(no_connect
 		(at 116.84 49.53)
@@ -3005,10 +3343,6 @@
 	(no_connect
 		(at 88.9 90.17)
 		(uuid "7f621ce6-0ed0-431a-922b-694a8591568f")
-	)
-	(no_connect
-		(at 88.9 105.41)
-		(uuid "cc6e19df-1fda-46bc-ae37-f75764cd44b8")
 	)
 	(no_connect
 		(at 88.9 110.49)
@@ -3077,6 +3411,16 @@
 			(type default)
 		)
 		(uuid "05832b32-96cc-47ab-8df9-e7c0ee9f7a09")
+	)
+	(wire
+		(pts
+			(xy 73.66 148.59) (xy 88.9 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "062db508-8621-401a-acd0-5d2391eaaa00")
 	)
 	(wire
 		(pts
@@ -3150,7 +3494,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 125.73) (xy 88.9 125.73)
+			(xy 63.5 125.73) (xy 76.2 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3360,6 +3704,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 73.66) (xy 238.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf59a75-0ec3-4b89-a9b8-4d65ab3e032d")
+	)
+	(wire
+		(pts
 			(xy 55.88 130.81) (xy 63.5 130.81)
 		)
 		(stroke
@@ -3530,6 +3884,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 125.73) (xy 88.9 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa0e169-ac8f-4a3c-b366-1ad0c9875661")
+	)
+	(wire
+		(pts
 			(xy 139.7 67.31) (xy 140.97 67.31)
 		)
 		(stroke
@@ -3558,6 +3922,16 @@
 		)
 		(uuid "f0eb5f44-cea3-40e7-9da2-149a2a54fb91")
 	)
+	(wire
+		(pts
+			(xy 69.85 105.41) (xy 88.9 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f887d00c-0e2f-4bac-a1f6-9fa70005d34e")
+	)
 	(label "DBG_SWDIO_OUT"
 		(at 88.9 146.05 180)
 		(effects
@@ -3577,16 +3951,6 @@
 			(justify right bottom)
 		)
 		(uuid "1ddd3425-fcc7-4b8c-bba6-29131af2d06f")
-	)
-	(label "SWDCLK"
-		(at 189.23 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4d4bd6a8-7ac9-448d-b9ed-3e2447fbe867")
 	)
 	(label "DBG_UART_RX"
 		(at 199.39 110.49 180)
@@ -3648,16 +4012,6 @@
 		)
 		(uuid "6278c2bb-788e-4462-83cd-f5b3a820b7f2")
 	)
-	(label "~{RESET}"
-		(at 214.63 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6911ad13-cd9c-4ee1-a16d-2d3334af8eee")
-	)
 	(label "DBG_SWCLK"
 		(at 199.39 105.41 180)
 		(effects
@@ -3687,16 +4041,6 @@
 			(justify left bottom)
 		)
 		(uuid "91b20cde-9c23-4c7e-b89d-810f1db90063")
-	)
-	(label "SWDIO"
-		(at 189.23 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "931e6856-b79e-4fae-b928-69b78eef806d")
 	)
 	(label "DBG_SWDIO_IN"
 		(at 199.39 113.03 180)
@@ -4002,6 +4346,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C76935"
+			(at 242.57 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "83f73ac2-2ad6-4fcf-abc7-4197b61fcf17")
 		)
@@ -4074,6 +4429,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 82.55 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C384960"
 			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4321,6 +4687,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C5217869"
+			(at 212.09 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Manufacturer" "TI(德州仪器)"
 			(at 212.09 152.4 0)
 			(hide yes)
@@ -4448,6 +4825,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C106224"
+			(at 63.5 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a033bd30-19ca-45aa-b34f-094f1f30f6e2")
 		)
@@ -4542,6 +4930,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 69.85 113.03 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31d5baa1-23ff-41f0-ac63-4ee74ea288b2")
+		(property "Reference" "R17"
+			(at 67.31 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1kR"
+			(at 67.31 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "passives:C_0201_0603Metric_L"
+			(at 69.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 69.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C138165"
+			(at 69.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1f7bdc9-a9f2-415f-b79f-d632706f6275")
+		)
+		(pin "2"
+			(uuid "b9fd0da8-f729-495f-878f-d2060fea25ad")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 124.46 41.91 0)
 		(mirror y)
@@ -4598,6 +5079,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 124.46 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C335103"
 			(at 124.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4924,6 +5416,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C76935"
+			(at 243.84 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f3826143-1c10-45c4-a026-3b83121d5864")
 		)
@@ -4934,6 +5437,85 @@
 			(project "Sidewalk_Devkit"
 				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538"
 					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "498610ff-a8e3-4987-ab19-af3421575788")
+		(property "Reference" "TP32"
+			(at 144.78 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 146.0499 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 149.86 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7de72c5-874a-4273-8078-2b2766394d63")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538"
+					(reference "TP32")
 					(unit 1)
 				)
 			)
@@ -5072,6 +5654,17 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+			(at 74.93 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C383840"
 			(at 74.93 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5247,6 +5840,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C76935"
+			(at 181.61 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "75c266fe-10ca-4c87-84f2-38658c7303a4")
 		)
@@ -5257,6 +5861,84 @@
 			(project "Sidewalk_Devkit"
 				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538"
 					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e8b8761-d662-41fc-80b2-ac19493eed34")
+		(property "Reference" "#PWR084"
+			(at 69.85 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62563da2-e3af-46c2-aafc-ce0c38e560f3")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5398,6 +6080,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 160.02 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C62550"
 			(at 160.02 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5585,6 +6278,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C76935"
+			(at 149.86 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cf3b756f-d35c-4f8a-8f5b-6d9aaf51ac89")
 		)
@@ -5745,6 +6449,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C76935"
+			(at 144.78 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e414fdd5-55bb-4e8f-acba-86e7f4b02dfb")
 		)
@@ -5755,6 +6470,85 @@
 			(project "Sidewalk_Devkit"
 				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 238.76 73.66 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "841e1fc5-0d9d-4a3f-80d6-3981dd0b65e1")
+		(property "Reference" "TP33"
+			(at 243.84 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 243.84 74.9299 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 238.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 238.76 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74250b4c-83ac-461d-b860-c340128caafa")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538"
+					(reference "TP33")
 					(unit 1)
 				)
 			)
@@ -5815,6 +6609,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 212.09 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49307573"
 			(at 212.09 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5902,6 +6707,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 67.31 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C384960"
 			(at 67.31 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6000,6 +6816,85 @@
 			(project "Sidewalk_Devkit"
 				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "948d125b-1394-4668-8fee-779168733d3b")
+		(property "Reference" "TP34"
+			(at 68.58 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 68.58 147.3201 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 73.66 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd6f5d5c-3c1a-46fd-bb67-fb631b713f08")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538"
+					(reference "TP34")
 					(unit 1)
 				)
 			)
@@ -6227,6 +7122,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C3007767"
+			(at 114.3 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "37"
 			(uuid "865ae5e3-ef45-460c-b04c-795e72844f74")
 		)
@@ -6439,6 +7345,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 76.2 125.73 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp yes)
+		(uuid "ca7c620f-edc7-4788-8aed-be07795f1d82")
+		(property "Reference" "TP35"
+			(at 76.2 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 74.9301 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 71.12 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 76.2 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28089cf0-ac44-4a25-86a8-17683f8e58f1")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538"
+					(reference "TP35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 74.93 85.09 0)
 		(unit 1)
@@ -6584,6 +7569,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19949844"
+			(at 58.42 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "780e0cd7-d17a-4852-86ba-b594ff20fc4f")
 		)
@@ -6597,6 +7593,109 @@
 			(project "Sidewalk_Devkit"
 				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 69.85 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ced7f378-4972-434a-b0f4-a0dc4efe2e62")
+		(property "Reference" "D5"
+			(at 67.31 106.6164 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_Blue"
+			(at 67.31 109.1564 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 69.85 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 69.85 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C965807"
+			(at 69.85 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 69.85 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "269d3d46-5542-4cbb-a493-b0a586cc16e8")
+		)
+		(pin "2"
+			(uuid "ffe1b7e0-c501-493a-86c6-83d86b5efda6")
+		)
+		(instances
+			(project "Sidewalk_Devkit"
+				(path "/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6659,6 +7758,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 139.7 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C335103"
 			(at 139.7 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6751,6 +7861,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C467016"
+			(at 170.18 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1545f618-9653-4403-8723-7dd0f589d2c0")
 		)
@@ -6821,6 +7942,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 212.09 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5217875"
 			(at 212.09 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6965,6 +8097,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 193.04 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C76935"
 			(at 193.04 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7134,6 +8277,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C23733"
+			(at 102.87 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b016072e-826f-4f63-86db-5ba01d76b8c3")
 		)
@@ -7293,6 +8447,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C76935"
+			(at 182.88 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "02fd890a-a18b-44db-926e-a032c07a7974")
 		)
@@ -7365,6 +8530,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C76935"
 			(at 134.62 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7457,6 +8633,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C76935"
+			(at 232.41 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ce40338-a998-402c-97f4-d9cae425340a")
 		)
@@ -7529,6 +8716,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 154.94 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C76935"
 			(at 154.94 41.91 0)
 			(hide yes)
 			(show_name no)
