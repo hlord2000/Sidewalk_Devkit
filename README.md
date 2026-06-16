@@ -29,6 +29,17 @@ front end.
 | Minimum track / clearance | `0.127 mm / 0.127 mm` |
 | Minimum drill | `0.200 mm` |
 
+## Passed Qualification Tests
+
+- Flashing the `nRF54L15` target from the on-board `nRF52833` debug helper.
+- RTT logging.
+- UART logging.
+- BLE validation.
+- NFC validation.
+- Sensor and PMIC logging from `SHT40`, `ADXL367`, and `nPM1300`.
+- `SX1262` radio operation in both FSK and LoRa modes.
+- Sidewalk operation over all transports.
+
 ### Top
 
 ![Sidewalk Devkit top render](docs/images/sidewalk-devkit-top.png)
