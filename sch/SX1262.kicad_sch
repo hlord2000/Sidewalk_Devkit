@@ -6318,10 +6318,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
+		(in_pos_files yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad526bd5-d91e-4bb2-a175-fc1005924ff8")
 		(property "Reference" "FL1"

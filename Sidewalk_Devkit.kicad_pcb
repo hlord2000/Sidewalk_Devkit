@@ -4513,7 +4513,7 @@
 			(uuid "85397f3e-74f9-4e60-a25f-88d35db6b921")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_6x6mm_P0.4mm_EP4.6x4.6mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/UQFN-48-1EP_6x6mm_P0.4mm_EP4.45x4.45mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15470,7 +15470,7 @@
 				(pins "1" "3" "4" "2" "5" "7" "9" "10" "8" "6")
 			)
 		)
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.410513 -1.16)
@@ -19718,7 +19718,7 @@
 			(uuid "380202d8-0141-49bd-a9cf-230e349d2759")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
