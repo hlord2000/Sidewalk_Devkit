@@ -301,6 +301,10 @@
         ""
       ],
       [
+        "lib_symbol_mismatch|1143000|1079500|c0843d75-4d49-47b2-b639-66ace030edb7|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
         "multiple_net_names|1866900|1397000|3e3df832-9bb9-4a01-afe3-4d8fb67ead9d|3aa70634-c8ba-418a-acc8-bd0a14211456|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee",
         ""
       ],
@@ -317,7 +321,15 @@
         ""
       ],
       [
+        "pin_to_pin|1993900|1333500|d4e2fb56-9e72-4c74-99be-92de998554ee|75c266fe-10ca-4c87-84f2-38658c7303a4|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538",
+        ""
+      ],
+      [
         "pin_to_pin|1993900|1346200|267fce6e-b959-49cb-ba9a-11151cb66c6a|69e3da2f-82d5-4638-82e5-fc45bc2bf0d6|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538",
+        ""
+      ],
+      [
+        "pin_to_pin|1993900|1358900|267fce6e-b959-49cb-ba9a-11151cb66c6a|69e3da2f-82d5-4638-82e5-fc45bc2bf0d6|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538",
         ""
       ],
       [
@@ -325,7 +337,15 @@
         ""
       ],
       [
+        "pin_to_pin|1993900|1409700|9915689e-4a57-4182-ad2e-0af0f97e322b|5e87d32a-d1eb-45e6-a2df-08102d68b4a9|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538",
+        ""
+      ],
+      [
         "pin_to_pin|2120900|1181100|cee6dcc4-a18b-46a4-8b3c-8ea3bc62c0ab|ec666305-f3f0-4417-b040-a7b98557477e|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538",
+        ""
+      ],
+      [
+        "pin_to_pin|2120900|1460500|b93747c7-7794-4add-9dae-4771e76aa806|ae92df6e-16ac-4fd9-91d6-7044b555460e|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538",
         ""
       ],
       [
@@ -337,7 +357,15 @@
         ""
       ],
       [
+        "pin_to_pin|2247900|1333500|bad5e66b-a20b-4583-875d-35a9b7a934f8|83f73ac2-2ad6-4fcf-abc7-4197b61fcf17|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538",
+        ""
+      ],
+      [
         "pin_to_pin|2247900|1397000|d3cea466-eb6b-4a26-91a2-5c6197226fba|0e217abd-ff52-43ca-b318-70ab8584b703|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538",
+        ""
+      ],
+      [
+        "pin_to_pin|2247900|1409700|d3cea466-eb6b-4a26-91a2-5c6197226fba|0e217abd-ff52-43ca-b318-70ab8584b703|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/82dccdde-cad9-464d-8883-9e08b7795538",
         ""
       ],
       [
@@ -665,7 +693,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "kicad-embed://AmericanEmbedded.kicad_wks"
+    "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,

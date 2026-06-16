@@ -2489,8 +2489,8 @@
 			)
 			(symbol "TXU0101DRYR_0_1"
 				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
+					(start -10.16 6.35)
+					(end 10.16 -6.35)
 					(stroke
 						(width 0)
 						(type default)
@@ -2500,7 +2500,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -12.7 5.08 0)
+					(at -12.7 3.81 0)
 					(length 2.54)
 					(name "VCCA"
 						(effects
@@ -2518,7 +2518,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -10.16 90)
+					(at 0 -8.89 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2536,7 +2536,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -12.7 -2.54 0)
+					(at -12.7 -3.81 0)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -2554,7 +2554,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 12.7 -2.54 180)
+					(at 12.7 -3.81 180)
 					(length 2.54)
 					(name "BY"
 						(effects
@@ -2572,7 +2572,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -12.7 2.54 0)
+					(at -12.7 1.27 0)
 					(length 2.54)
 					(name "OE"
 						(effects
@@ -2590,7 +2590,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 12.7 5.08 180)
+					(at 12.7 3.81 180)
 					(length 2.54)
 					(name "VCCB"
 						(effects
@@ -3794,7 +3794,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 132.08) (xy 242.57 132.08)
+			(xy 224.79 133.35) (xy 242.57 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3904,7 +3904,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 132.08) (xy 199.39 132.08)
+			(xy 181.61 133.35) (xy 199.39 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3963,7 +3963,7 @@
 		(uuid "4e15b4e6-95f9-45a2-bbdd-fc9342e8c662")
 	)
 	(label "DBG_SWDIO_OE"
-		(at 199.39 134.62 180)
+		(at 199.39 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3983,7 +3983,7 @@
 		(uuid "570d838e-bc1a-4c43-9001-a4bd4876f471")
 	)
 	(label "DBG_VDD"
-		(at 199.39 132.08 180)
+		(at 199.39 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4053,7 +4053,7 @@
 		(uuid "99ecdcad-cbc8-4aeb-828d-0a5abc5b8eed")
 	)
 	(label "DBG_SWDIO_OUT"
-		(at 199.39 139.7 180)
+		(at 199.39 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4073,7 +4073,7 @@
 		(uuid "b4a92732-aa8e-46be-b0ec-8c439d05f5a0")
 	)
 	(label "LEVEL_SHIFT_VDD"
-		(at 224.79 132.08 0)
+		(at 224.79 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4259,7 +4259,7 @@
 	)
 	(hierarchical_label "TARGET_SWDIO"
 		(shape input)
-		(at 224.79 139.7 0)
+		(at 224.79 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4281,7 +4281,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 242.57 134.62 0)
+		(at 242.57 135.89 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4292,7 +4292,7 @@
 		(dnp no)
 		(uuid "0b1a841d-8e70-4e6e-8d23-f12271d664ef")
 		(property "Reference" "C51"
-			(at 245.11 133.3562 0)
+			(at 245.11 134.6262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4303,7 +4303,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 245.11 135.8962 0)
+			(at 245.11 137.1662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4314,7 +4314,7 @@
 			)
 		)
 		(property "Footprint" "passives:C_0201_0603Metric_L"
-			(at 242.57 134.62 0)
+			(at 242.57 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4325,7 +4325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 134.62 0)
+			(at 242.57 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4336,7 +4336,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 242.57 134.62 0)
+			(at 242.57 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4347,7 +4347,7 @@
 			)
 		)
 		(property "LCSC" "C76935"
-			(at 242.57 134.62 0)
+			(at 242.57 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5195,7 +5195,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 147.32 0)
+		(at 212.09 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5206,7 +5206,7 @@
 		(fields_autoplaced yes)
 		(uuid "4045f10f-9658-48c5-8433-54979349a257")
 		(property "Reference" "#PWR047"
-			(at 212.09 153.67 0)
+			(at 212.09 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5217,7 +5217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 152.4 0)
+			(at 212.09 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5227,7 +5227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 147.32 0)
+			(at 212.09 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5238,7 +5238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 147.32 0)
+			(at 212.09 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5249,7 +5249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 147.32 0)
+			(at 212.09 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5776,7 +5776,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 181.61 134.62 0)
+		(at 181.61 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5786,7 +5786,7 @@
 		(dnp no)
 		(uuid "6e558700-ee7e-4172-ac30-0b1632b2bf9d")
 		(property "Reference" "C50"
-			(at 179.07 133.3562 0)
+			(at 179.07 134.6262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5797,7 +5797,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 179.07 135.8962 0)
+			(at 179.07 137.1662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5808,7 +5808,7 @@
 			)
 		)
 		(property "Footprint" "passives:C_0201_0603Metric_L"
-			(at 181.61 134.62 0)
+			(at 181.61 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5819,7 +5819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 134.62 0)
+			(at 181.61 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5830,7 +5830,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 181.61 134.62 0)
+			(at 181.61 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5841,7 +5841,7 @@
 			)
 		)
 		(property "LCSC" "C76935"
-			(at 181.61 134.62 0)
+			(at 181.61 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5946,7 +5946,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 137.16 0)
+		(at 242.57 138.43 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5958,7 +5958,7 @@
 		(fields_autoplaced yes)
 		(uuid "71d5363f-53d6-41e7-9ec7-bd0b519ff898")
 		(property "Reference" "#PWR055"
-			(at 242.57 143.51 0)
+			(at 242.57 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5969,7 +5969,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 142.24 0)
+			(at 242.57 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5979,7 +5979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 137.16 0)
+			(at 242.57 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5990,7 +5990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 137.16 0)
+			(at 242.57 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6001,7 +6001,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 137.16 0)
+			(at 242.57 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6567,7 +6567,7 @@
 		(fields_autoplaced yes)
 		(uuid "858988b4-b9b1-4744-b43c-5d57a1aaf99b")
 		(property "Reference" "U10"
-			(at 212.09 67.31 0)
+			(at 212.09 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6577,7 +6577,7 @@
 			)
 		)
 		(property "Value" "TPS22991"
-			(at 212.09 69.85 0)
+			(at 212.09 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6745,7 +6745,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 137.16 0)
+		(at 181.61 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6756,7 +6756,7 @@
 		(fields_autoplaced yes)
 		(uuid "922dd5af-08b2-48f9-ab62-3d427c76db32")
 		(property "Reference" "#PWR054"
-			(at 181.61 143.51 0)
+			(at 181.61 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6767,7 +6767,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 142.24 0)
+			(at 181.61 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6777,7 +6777,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 137.16 0)
+			(at 181.61 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6788,7 +6788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 137.16 0)
+			(at 181.61 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6799,7 +6799,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 137.16 0)
+			(at 181.61 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7664,7 +7664,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C965807"
+		(property "LCSC" "C7496819"
 			(at 69.85 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -7900,7 +7900,7 @@
 		(fields_autoplaced yes)
 		(uuid "d781a985-09ae-437c-a4ab-697b616cf059")
 		(property "Reference" "U6"
-			(at 212.09 91.44 0)
+			(at 212.09 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7910,7 +7910,7 @@
 			)
 		)
 		(property "Value" "TXU0204RUTR"
-			(at 212.09 93.98 0)
+			(at 212.09 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8750,6 +8750,98 @@
 					(unit 1)
 				)
 			)
+		)
+	)
+	(group "nRF52833 Debugger"
+		(uuid "1e763086-c648-4363-98d3-2f43773e4b4b")
+		(lib_id "Sidewalk_Devkit:nRF52833 Debugger")
+		(members "03b00d76-fee2-4336-961c-441c1ae37d3f" "05832b32-96cc-47ab-8df9-e7c0ee9f7a09"
+			"062db508-8621-401a-acd0-5d2391eaaa00" "08f235f1-1af4-4f8f-a314-0f3ba2d61500"
+			"0b1a841d-8e70-4e6e-8d23-f12271d664ef" "0fcfd093-ba4c-40c7-9033-9e80dbe4a5f3"
+			"11c1b1e3-083f-473f-89e3-b6a9e33a3b60" "138d980c-0cbd-4ff0-b15b-225187009027"
+			"17ce578a-8e7e-4f84-925e-b205e491c1bb" "186f4e2f-9346-4174-ba40-a115184e1ca2"
+			"1895e1c4-4957-4a77-b3b3-b6726e8d68f2" "18997c81-5247-4664-9565-db20b21d3e4a"
+			"18aff84e-795f-4be4-a50b-449469ffaccd" "1ddd3425-fcc7-4b8c-bba6-29131af2d06f"
+			"1e908eea-932f-4b25-b3cf-eca28934acb0" "1f1939a0-3b6a-4013-a28d-688f8fd680ab"
+			"1f484620-b985-4fe2-b0a2-763fed16c93d" "20624fe0-ba38-484e-afba-fb981d93f4d6"
+			"2140ce14-8302-4006-a246-7df8d968cc4e" "21dd84de-ff1f-4a57-ba34-a328da612eba"
+			"2260d7c5-abd1-49cf-a2b6-1af1cd9daf72" "24b0343c-3059-40f9-b876-8e42cab2bc8f"
+			"24b58277-5adc-4f9d-95a4-ad80f6d97de6" "25d028e7-cd8d-46a4-b844-312398530e45"
+			"275de2c9-b728-43e8-af34-b43cc8b634eb" "2a462dc6-0e8a-41b7-8792-04fb62489eb0"
+			"2aa366c9-e9ec-4acb-a1df-345637bae17e" "2b76e5cb-4b22-4b68-b684-66e2ceec024a"
+			"2be874c6-413d-4e98-91eb-32c7ed19f2fa" "2e0ba6aa-25b6-476a-9ff3-1e67a65fd12b"
+			"2fe8d7d9-d74f-45fd-9b5b-278c49bb7d5a" "30fbd7be-96e7-4d1b-87a9-3088731f4f6a"
+			"31a0fea5-7e13-48c9-a90e-88ddabe30b7b" "31d5baa1-23ff-41f0-ac63-4ee74ea288b2"
+			"35b7bf9d-fa16-4833-8964-289d248f1eac" "39e8b4a8-e4b0-4b62-99f8-828998b7886f"
+			"3a4d414a-fb41-4643-a883-a630df4ac7cf" "40017a1e-4fd5-466d-b965-f9eb72da7fa5"
+			"4045f10f-9658-48c5-8433-54979349a257" "4065d21f-be98-41c6-a755-d3fef1be3199"
+			"41c62725-8480-43de-a991-67044e4dec6f" "46a3a60f-4114-4ffd-ae32-44253d76b34b"
+			"47d1cd6c-a4ca-400f-9c94-b52c39d86ea8" "493b23e9-26df-447e-8f2f-effacaaddef1"
+			"498610ff-a8e3-4987-ab19-af3421575788" "4a0eb255-8c67-440a-9709-642533a08b7b"
+			"4cd19028-3206-4c89-85ce-0a31882b6ae0" "4e15b4e6-95f9-45a2-bbdd-fc9342e8c662"
+			"4e51b409-4274-498a-88a4-89c7becf0f42" "4e7166d6-a351-43a9-8022-20fe65218554"
+			"4e7c7099-3af0-4ea3-a750-92c6ebbc4c2c" "4f419f77-01d9-4ea0-a079-88adde1695e9"
+			"4f7451e2-d72f-4d03-8b65-7f9ccb014237" "513bef3b-c4ed-4708-bc25-4bf3697262ab"
+			"53796424-be5a-4ffc-8366-91d0f7241383" "5534a7ae-9888-4caa-b53e-b68d8c0f38a5"
+			"5655eabd-aef0-49d7-8234-b89aecdf2bf8" "570d838e-bc1a-4c43-9001-a4bd4876f471"
+			"5ae889ba-4cdb-4af5-a75a-3459e7b413f5" "5d9e3536-2a12-4c39-ba56-e5039c2b6071"
+			"5eeac580-e731-47e5-90ce-62eaed1f9d37" "5f8ee18d-0baf-4a4c-a9bc-76644fa98932"
+			"5f987c05-b74c-4cf4-8976-6f37a41d14dc" "60e20dfa-b878-436f-90c8-75cccccd7d03"
+			"6154f624-af6d-4345-ab51-04b538885598" "6278c2bb-788e-4462-83cd-f5b3a820b7f2"
+			"63f80974-f572-4dd4-a331-386ab14346d8" "64ce26e6-2e3a-4873-a666-15e805a3b578"
+			"6856e4ac-08cb-48bc-93ff-10d81b07c0e9" "6e558700-ee7e-4172-ac30-0b1632b2bf9d"
+			"6e8b8761-d662-41fc-80b2-ac19493eed34" "714a16a3-c6c1-4a86-8001-49169f6ee6a1"
+			"71d5363f-53d6-41e7-9ec7-bd0b519ff898" "720ec39d-4058-42bc-9892-00240b9208c5"
+			"753fb3bb-c089-44ba-8756-6f599942e61f" "7675e465-b250-493a-8b27-c3634e18c36d"
+			"7772e740-8b66-4f50-a7c9-d6d0c71c075b" "7783e0e1-4663-43b9-b48e-8f7338d49b5b"
+			"792a4369-939c-4f48-8b3e-9bac8b667f1f" "7a55e539-cd05-43b0-b204-e97c384a85b7"
+			"7c956c3f-37c5-49e3-920f-f276ee9265df" "7d2030cc-cb34-4537-aa36-cdeb74fd6f82"
+			"7f621ce6-0ed0-431a-922b-694a8591568f" "7f6c87da-4573-4152-89c1-9e34940008f8"
+			"80c2f705-c7a8-4d35-82a4-7dc33ae04e60" "82889e46-d491-4f2a-b960-ba9ff50ba925"
+			"841e1fc5-0d9d-4a3f-80d6-3981dd0b65e1" "84845323-02bc-44c2-a516-19c8aee7c4e3"
+			"858988b4-b9b1-4744-b43c-5d57a1aaf99b" "86363fe9-1c23-4418-9216-a962470c7a3b"
+			"88453d32-c86a-4531-b169-40da5d8cd486" "88fb28a1-3c90-45b7-b786-713270aa804a"
+			"89abfad6-cea9-402a-ad45-33e4ee5b824a" "89d4179a-9d8c-4b08-836d-bb3afc8c1761"
+			"8c3721f8-f9ea-491e-a6ee-844947cb8207" "8f2c8c33-a452-458a-8935-184101c6df89"
+			"9068bc21-0922-4249-8003-d878e042f4cc" "91b20cde-9c23-4c7e-b89d-810f1db90063"
+			"922dd5af-08b2-48f9-ab62-3d427c76db32" "948d125b-1394-4668-8fee-779168733d3b"
+			"94de3870-2e48-4eb3-aaf4-a665b68115ff" "97dc6858-39a2-4f34-ad09-6397d499a187"
+			"99ecdcad-cbc8-4aeb-828d-0a5abc5b8eed" "9bd347e0-45b7-43e6-aaef-932abfa3d9ff"
+			"9cdb7aed-52b7-4b87-847d-e580915bf02a" "9cf59a75-0ec3-4b89-a9b8-4d65ab3e032d"
+			"a8bb4de3-04a8-4eaf-bf5a-f8145a31213e" "ac084e74-ffd0-458a-b493-a224f60665d3"
+			"b0dacb3e-b916-4008-9cc8-416a7d0b6938" "b1bdce7a-eac2-4309-8d4a-7c028307be86"
+			"b2e53c2d-0ce8-40b6-9fa1-1ec127e4b5c9" "b34f4149-b60b-4676-87f0-55405c905d01"
+			"b3a3826f-775f-4f70-b1c5-32a1fda43d79" "b3f586bc-32d0-40e0-a6b9-847c7ae491d9"
+			"b4a92732-aa8e-46be-b0ec-8c439d05f5a0" "b6bca5f1-44f3-4af1-bc12-cdb782393471"
+			"b9a8f48d-d6f9-4c35-9c1b-23bff1d75608" "bbac6ac9-4f1e-4f94-ab78-8fee05f280b3"
+			"c074b7dc-06af-4d5d-958d-270cc685cfe1" "c0843d75-4d49-47b2-b639-66ace030edb7"
+			"c60f90f6-e180-4db3-830a-f42e9e6f5268" "c694d892-737c-49fb-8163-a08394d77d7b"
+			"c7914aca-ca66-4885-bf5d-5b52801513c2" "c7dea781-6745-4768-9c43-b8434b657753"
+			"c7e5f44a-5f3e-489b-9a78-329605707a83" "c89836a4-bc1a-4092-9e26-f2a5b90dd585"
+			"ca05e692-fc7e-4a20-b761-878bcb981987" "ca7c620f-edc7-4788-8aed-be07795f1d82"
+			"ccaab7e9-7f33-47c5-bfaa-5b90cb8c080e" "cd1280ea-053f-4a65-b161-978349d6fc3c"
+			"ce8c5d56-1600-43d6-8158-e5dc3dd6c314" "ced2a8a0-c953-4681-b2be-65ed4dd4c5c4"
+			"ced7f378-4972-434a-b0f4-a0dc4efe2e62" "ced872ab-fda7-42d0-8724-7f13f135e8e4"
+			"cfc8ff68-805f-4010-b52b-a16959f77761" "d13059b8-f8c9-41f2-8c15-1fbd5bd553fb"
+			"d292c328-ef8f-4b92-b0fe-8133ab5b2d74" "d2d5c5f1-2580-4aab-801c-8fcea804fed9"
+			"d2e7ca24-c849-466e-b50d-584c7b56799c" "d4cedfb3-bb25-4629-ac7e-25f884276a5c"
+			"d65743cc-ce59-40b7-8260-c8e8bf042a7e" "d70d1afa-60c7-436c-b189-821175b4dc9b"
+			"d781a985-09ae-437c-a4ab-697b616cf059" "d80d4053-c82e-4786-a285-994e1a39027f"
+			"d935fd8f-7928-4027-af04-887f6a4cc6ca" "d95ee722-44e2-43cc-8fe0-087d498e25d0"
+			"dcf765a4-0b7c-4c3c-b783-91e6725e5060" "ddfc8aae-7374-42e8-a3c1-81d4d8fe89eb"
+			"df389f64-2ab7-420d-8966-6522ca203eaf" "dfa0e169-ac8f-4a3c-b366-1ad0c9875661"
+			"e046f964-a1e6-414d-9d43-e6799830036a" "e067c3f4-3419-42b3-9aac-2c8ba13af19d"
+			"e07046a5-03c6-49e5-9079-810a1b97ee81" "e0f1f051-14f9-46e7-8cc8-4c5c6498e958"
+			"e26f49ba-72fa-44af-b189-4672c3d2727a" "e3e2b45f-c368-4757-884f-a30a6a88a54f"
+			"e529ac5b-3de6-4ff8-823b-c762445069bf" "e75f9034-48b4-40e6-bcb2-2ee8eaec7b92"
+			"e793fa8a-6077-4880-a62a-9765d2b143ac" "e97963da-1f2d-4bd6-8488-9bfc8608f0ed"
+			"eae801f6-fe5e-4bfa-840e-cc6f9f8b2684" "efe0b3e8-21ca-4838-a482-a6c89969ab3a"
+			"f0eb5f44-cea3-40e7-9da2-149a2a54fb91" "f1256ffe-03a1-4010-ab83-2599903331f1"
+			"f171bc71-2fd6-465a-874e-ad8cc9dbc4dd" "f2b4f21a-8fa8-4d96-aada-48e84adc6225"
+			"f4df6f62-c5ef-4dc0-9752-11febcd759b3" "f643544a-27c5-4b7b-ad3d-e9dfd1052502"
+			"f887d00c-0e2f-4bac-a1f6-9fa70005d34e" "f9fda57a-464a-4912-a856-eade1ada9b61"
+			"f9fe4d50-ab3d-4aff-b7b3-e9682d100b3c" "fabb2b5f-1b9d-4eae-a288-2b5c12a5da7b"
+			"ffefa33e-07a6-43e8-b135-2a8ebd596316"
 		)
 	)
 )

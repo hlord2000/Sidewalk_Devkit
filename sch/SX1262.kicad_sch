@@ -7432,7 +7432,7 @@
 	)
 	(group "SX1262 IPD, 915MHz"
 		(uuid "b124e26a-3815-4245-a095-3a1845e5d4c6")
-		(lib_id "amemb-RF:SX1262 IPD, 915MHz")
+		(lib_id "Sidewalk_Devkit:SX1262 IPD, 915MHz")
 		(members "00730402-a467-4c98-b63a-2b44c5f60418" "01e49fe7-f293-4133-b1db-1a3be03643dc"
 			"03134e84-2afc-4735-965c-797b6be67de0" "08910f57-373c-4ab6-907d-527e4e48a643"
 			"09016ea5-e1fc-490d-8019-3de0872c3a51" "1047408f-3f69-4aa4-8ae6-c930df4c0bbb"

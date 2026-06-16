@@ -6226,7 +6226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "amemb-Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12-Edge_Silkscreen_Removed"
+		(property "Footprint" "easyeda2kicad:USB_C_Receptacle_HRO_TYPE-C-31-M-12-Edge_Silkscreen_Removed"
 			(at 59.69 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9806,7 +9806,7 @@
 	)
 	(group "USB-C Receptacle with ESD + 1A fuse"
 		(uuid "1f39a5d4-fb11-418f-85c3-b39885aa9347")
-		(lib_id "amemb-USB:USB-C Receptacle with ESD + 1A fuse")
+		(lib_id "Sidewalk_Devkit:USB-C Receptacle with ESD + 1A fuse")
 		(members "0bc2f94f-7181-411a-8b65-34718c7d9534" "0d027d96-20b3-4857-adf6-a3024518c9e7"
 			"1803beea-17d5-4564-9914-ef8df8ad989e" "212863e6-77aa-411a-9ec4-98ee8b9264cc"
 			"21509598-ff82-48af-863a-03e467e0a3cd" "2ccb33ba-4831-414f-bf98-d3f43ae5ae14"
