@@ -647,20 +647,20 @@
 		)
 	)
 	(junction
-		(at 83.82 132.08)
+		(at 82.55 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1a2bf24-aeaf-4857-9839-8156b217094d")
 	)
 	(junction
-		(at 83.82 121.92)
+		(at 82.55 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d40b51a9-2593-4fc0-bf7b-e5d13e7fe5d7")
 	)
 	(bus
 		(pts
-			(xy 119.38 97.79) (xy 119.38 87.63)
+			(xy 118.11 97.79) (xy 118.11 90.17)
 		)
 		(stroke
 			(width 0)
@@ -670,7 +670,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 100.33) (xy 116.84 90.17)
+			(xy 115.57 100.33) (xy 115.57 92.71)
 		)
 		(stroke
 			(width 0)
@@ -690,7 +690,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 90.17) (xy 114.3 90.17)
+			(xy 115.57 92.71) (xy 113.03 92.71)
 		)
 		(stroke
 			(width 0)
@@ -700,7 +700,7 @@
 	)
 	(bus
 		(pts
-			(xy 119.38 87.63) (xy 114.3 87.63)
+			(xy 118.11 90.17) (xy 113.03 90.17)
 		)
 		(stroke
 			(width 0)
@@ -710,7 +710,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 121.92) (xy 92.71 121.92)
+			(xy 113.03 87.63) (xy 121.92 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8aec07-82d9-436d-8e20-7dd39c7c1911")
+	)
+	(wire
+		(pts
+			(xy 82.55 121.92) (xy 91.44 121.92)
 		)
 		(stroke
 			(width 0)
@@ -720,7 +730,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 106.68) (xy 119.38 106.68)
+			(xy 113.03 106.68) (xy 118.11 106.68)
 		)
 		(stroke
 			(width 0)
@@ -730,7 +740,7 @@
 	)
 	(bus
 		(pts
-			(xy 160.02 97.79) (xy 119.38 97.79)
+			(xy 160.02 97.79) (xy 118.11 97.79)
 		)
 		(stroke
 			(width 0)
@@ -790,7 +800,7 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 82.55) (xy 123.19 82.55)
+			(xy 113.03 82.55) (xy 121.92 82.55)
 		)
 		(stroke
 			(width 0)
@@ -800,7 +810,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 100.33) (xy 116.84 100.33)
+			(xy 160.02 100.33) (xy 115.57 100.33)
 		)
 		(stroke
 			(width 0)
@@ -810,7 +820,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 119.38) (xy 119.38 119.38)
+			(xy 113.03 119.38) (xy 118.11 119.38)
 		)
 		(stroke
 			(width 0)
@@ -840,7 +850,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 85.09) (xy 123.19 85.09)
+			(xy 113.03 85.09) (xy 121.92 85.09)
 		)
 		(stroke
 			(width 0)
@@ -849,7 +859,7 @@
 		(uuid "f86ef0a3-168b-4040-958d-16d8e3c2aafb")
 	)
 	(label "BUTTON0"
-		(at 92.71 121.92 180)
+		(at 91.44 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -870,7 +880,7 @@
 	)
 	(global_label "SENSOR_VDD"
 		(shape input)
-		(at 114.3 109.22 0)
+		(at 113.03 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -880,7 +890,7 @@
 		)
 		(uuid "cd3a5387-9211-4d48-8b5e-957f854f7470")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.3804 109.22 0)
+			(at 128.1104 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -894,7 +904,7 @@
 	)
 	(global_label "STEMMA_VDD"
 		(shape input)
-		(at 114.3 121.92 0)
+		(at 113.03 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -904,7 +914,7 @@
 		)
 		(uuid "f17693d1-b4e1-4d41-a7a7-0175f30e4e0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.1989 121.92 0)
+			(at 127.9289 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -918,7 +928,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 83.82 127 90)
+		(at 82.55 127 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -929,7 +939,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f4007ea-5cc5-4767-9955-ec91272df560")
 		(property "Reference" "SW1"
-			(at 85.09 125.7299 90)
+			(at 83.82 125.7299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -940,7 +950,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 85.09 128.2699 90)
+			(at 83.82 128.2699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -951,7 +961,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
-			(at 78.74 127 0)
+			(at 77.47 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -962,7 +972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 127 0)
+			(at 77.47 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -973,7 +983,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 83.82 127 0)
+			(at 82.55 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -984,7 +994,7 @@
 			)
 		)
 		(property "LCSC" "C127488"
-			(at 83.82 127 90)
+			(at 82.55 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1011,7 +1021,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 83.82 121.92 90)
+		(at 82.55 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1021,7 +1031,7 @@
 		(dnp yes)
 		(uuid "4a287459-3905-4851-be0a-a2fe31679b53")
 		(property "Reference" "TP2"
-			(at 78.74 121.92 90)
+			(at 77.47 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1032,7 +1042,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 78.74 120.6501 90)
+			(at 77.47 120.6501 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1044,7 +1054,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 83.82 116.84 0)
+			(at 82.55 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1055,7 +1065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 116.84 0)
+			(at 82.55 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1066,7 +1076,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 83.82 121.92 0)
+			(at 82.55 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1090,7 +1100,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 132.08 0)
+		(at 82.55 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1101,7 +1111,7 @@
 		(fields_autoplaced yes)
 		(uuid "56ae59b8-64ac-4019-a52b-f45c42f6ef30")
 		(property "Reference" "#PWR07"
-			(at 83.82 138.43 0)
+			(at 82.55 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1112,7 +1122,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 137.16 0)
+			(at 82.55 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1122,7 +1132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 132.08 0)
+			(at 82.55 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1133,7 +1143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 132.08 0)
+			(at 82.55 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1144,7 +1154,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 132.08 0)
+			(at 82.55 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1168,7 +1178,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 119.38 119.38 0)
+		(at 118.11 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1179,7 +1189,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ad74749-c725-46a0-9d5d-f0994d54e036")
 		(property "Reference" "#PWR065"
-			(at 119.38 123.19 0)
+			(at 118.11 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1190,7 +1200,7 @@
 			)
 		)
 		(property "Value" "VDD_nRF"
-			(at 119.38 114.3 0)
+			(at 118.11 114.3 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1200,7 +1210,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 119.38 0)
+			(at 118.11 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1211,7 +1221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 119.38 0)
+			(at 118.11 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1222,7 +1232,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 119.38 119.38 0)
+			(at 118.11 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1398,7 +1408,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 119.38 106.68 0)
+		(at 118.11 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1409,7 +1419,7 @@
 		(fields_autoplaced yes)
 		(uuid "a545aad6-3d4c-45e1-b80e-c4fa35f517c0")
 		(property "Reference" "#PWR064"
-			(at 119.38 110.49 0)
+			(at 118.11 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1420,7 +1430,7 @@
 			)
 		)
 		(property "Value" "VDD_nRF"
-			(at 119.38 101.6 0)
+			(at 118.11 101.6 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1430,7 +1440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 106.68 0)
+			(at 118.11 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1441,7 +1451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 106.68 0)
+			(at 118.11 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1452,7 +1462,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 119.38 106.68 0)
+			(at 118.11 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1628,7 +1638,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 83.82 132.08 270)
+		(at 82.55 132.08 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1638,7 +1648,7 @@
 		(dnp yes)
 		(uuid "fe9c88a5-6e75-427f-bc0c-0e9a49d06469")
 		(property "Reference" "TP1"
-			(at 88.9 132.08 90)
+			(at 87.63 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1649,7 +1659,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 88.9 133.3499 90)
+			(at 87.63 133.3499 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1661,7 +1671,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
-			(at 83.82 137.16 0)
+			(at 82.55 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1672,7 +1682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 137.16 0)
+			(at 82.55 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1683,7 +1693,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 83.82 132.08 0)
+			(at 82.55 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1706,8 +1716,8 @@
 		)
 	)
 	(sheet
-		(at 123.19 80.01)
-		(size 24.13 15.24)
+		(at 121.92 80.01)
+		(size 25.4 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1722,7 +1732,7 @@
 		)
 		(uuid "82dccdde-cad9-464d-8883-9e08b7795538")
 		(property "Sheetname" "Debugger"
-			(at 123.19 79.2984 0)
+			(at 121.92 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1733,7 +1743,7 @@
 			)
 		)
 		(property "Sheetfile" "sch/Debugger.kicad_sch"
-			(at 123.19 95.8346 0)
+			(at 121.92 95.8346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1774,7 +1784,7 @@
 			)
 		)
 		(pin "{USB}" input
-			(at 123.19 82.55 180)
+			(at 121.92 82.55 180)
 			(uuid "a6c2df18-a33d-4648-9da3-a66eb7767023")
 			(effects
 				(font
@@ -1794,8 +1804,18 @@
 			)
 		)
 		(pin "VBUS" input
-			(at 123.19 85.09 180)
+			(at 121.92 85.09 180)
 			(uuid "7f8017d3-f8d8-4458-8754-f08e0696779e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXT_PWR" input
+			(at 121.92 87.63 180)
+			(uuid "0aedd46e-20a5-47ea-9456-9c1ebc43c3ca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,7 +1918,7 @@
 		)
 	)
 	(sheet
-		(at 92.71 80.01)
+		(at 91.44 80.01)
 		(size 21.59 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1914,7 +1934,7 @@
 		)
 		(uuid "977fbe9b-66f0-4d08-abc6-21ef1e8939ee")
 		(property "Sheetname" "nPM1300"
-			(at 92.71 79.2984 0)
+			(at 91.44 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1925,7 +1945,7 @@
 			)
 		)
 		(property "Sheetfile" "sch/nPM1300.kicad_sch"
-			(at 92.71 125.0446 0)
+			(at 91.44 125.0446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1936,7 +1956,7 @@
 			)
 		)
 		(pin "LSIN1" input
-			(at 114.3 106.68 0)
+			(at 113.03 106.68 0)
 			(uuid "6f74c59e-af3d-49ba-b3b2-0b81603cbd56")
 			(effects
 				(font
@@ -1946,7 +1966,7 @@
 			)
 		)
 		(pin "LSIN2" input
-			(at 114.3 119.38 0)
+			(at 113.03 119.38 0)
 			(uuid "1a3af14a-856a-41bd-88d9-f46db10aefa8")
 			(effects
 				(font
@@ -1956,7 +1976,7 @@
 			)
 		)
 		(pin "LSOUT1" input
-			(at 114.3 109.22 0)
+			(at 113.03 109.22 0)
 			(uuid "c55274ce-efae-4477-9bda-8f3b5003bc8f")
 			(effects
 				(font
@@ -1966,7 +1986,7 @@
 			)
 		)
 		(pin "LSOUT2" input
-			(at 114.3 121.92 0)
+			(at 113.03 121.92 0)
 			(uuid "5e574434-1623-43e8-9a58-e8201a9025b0")
 			(effects
 				(font
@@ -1976,7 +1996,7 @@
 			)
 		)
 		(pin "nPM1300.INT" input
-			(at 114.3 90.17 0)
+			(at 113.03 92.71 0)
 			(uuid "caa43d6f-1fa0-45b3-8595-3eab3d3fc20e")
 			(effects
 				(font
@@ -1986,7 +2006,7 @@
 			)
 		)
 		(pin "SHPHLD" input
-			(at 92.71 121.92 180)
+			(at 91.44 121.92 180)
 			(uuid "43a3fca8-6b88-40da-9bab-28f88da83fcb")
 			(effects
 				(font
@@ -1996,7 +2016,7 @@
 			)
 		)
 		(pin "{I2C}" input
-			(at 114.3 87.63 0)
+			(at 113.03 90.17 0)
 			(uuid "00a6df9b-f193-4755-9a27-bee78d3d2e50")
 			(effects
 				(font
@@ -2006,7 +2026,7 @@
 			)
 		)
 		(pin "{USB}" input
-			(at 114.3 82.55 0)
+			(at 113.03 82.55 0)
 			(uuid "074ddba1-1ca5-4367-a87c-5f8504840814")
 			(effects
 				(font
@@ -2016,8 +2036,18 @@
 			)
 		)
 		(pin "VBUSOUT" input
-			(at 114.3 85.09 0)
+			(at 113.03 85.09 0)
 			(uuid "35882168-af62-41b3-94cd-27ea9f62e27e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXT_PWR" input
+			(at 113.03 87.63 0)
+			(uuid "6129ae8a-2cf0-4876-9b37-9f4b2d185659")
 			(effects
 				(font
 					(size 1.27 1.27)

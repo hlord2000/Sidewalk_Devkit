@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.1,
+          "min_clearance": 0.127,
           "min_island_area": 10.0,
-          "min_thickness": 0.1,
+          "min_thickness": 0.127,
           "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.254,
-          "thermal_relief_spoke_width": 0.254
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -385,6 +385,10 @@
         ""
       ],
       [
+        "power_pin_not_driven|1612900|393700|3cf26743-46be-4a18-9536-d788f5f4ee4e|00000000-0000-0000-0000-000000000000|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/a66a5f3a-ae04-47e1-a16e-1d74d8fdc1b7|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/a66a5f3a-ae04-47e1-a16e-1d74d8fdc1b7|",
+        ""
+      ],
+      [
         "power_pin_not_driven|1866900|1371600|62617654-6219-420c-9d86-2bdb772ee51d|00000000-0000-0000-0000-000000000000|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/977fbe9b-66f0-4d08-abc6-21ef1e8939ee|",
         ""
       ],
@@ -398,6 +402,10 @@
       ],
       [
         "power_pin_not_driven|520700|495300|71f4e547-3bda-4bf1-98ec-2410d0c0ee4a|00000000-0000-0000-0000-000000000000|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/a66a5f3a-ae04-47e1-a16e-1d74d8fdc1b7|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/a66a5f3a-ae04-47e1-a16e-1d74d8fdc1b7|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|965200|762000|09a13068-81b8-4503-ac18-82c9e34cb8a7|00000000-0000-0000-0000-000000000000|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/92d9e427-0823-45d7-bf9e-a2292b317908|/46ec7b9e-7ce4-471b-b2a3-117ade628de1/92d9e427-0823-45d7-bf9e-a2292b317908|",
         ""
       ]
     ],
@@ -1069,7 +1077,7 @@
         "uuid": "46ec7b9e-7ce4-471b-b2a3-117ade628de1"
       }
     ],
-    "used_designators": "TP1-35",
+    "used_designators": "TP36-38",
     "variants": []
   },
   "sheets": [
