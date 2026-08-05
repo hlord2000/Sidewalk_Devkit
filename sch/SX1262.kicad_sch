@@ -7177,7 +7177,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BGS12WN6E6327"
+		(property "Value" "BGS12SN6E6327XTSA1"
 			(at 192.3481 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7221,7 +7221,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1854968"
+		(property "LCSC" " C114953"
 			(at 189.23 107.95 0)
 			(hide yes)
 			(show_name no)
