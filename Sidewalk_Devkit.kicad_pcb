@@ -35091,6 +35091,17 @@
 		(net "/nPM1300/VSYS")
 		(uuid "a551c4b4-c315-48e9-b686-8d47d2946fcd")
 	)
+	(gr_rect
+		(start 146.03376 54.6412)
+		(end 151.03376 59.6412)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "49a727b7-552b-465c-af04-67ce938691c5")
+	)
 	(gr_circle
 		(center 115.72016 52.2512)
 		(end 116.72016 52.2512)
@@ -50861,6 +50872,14 @@
 		(uuid "42a091cf-a660-442c-807a-06b09576a413")
 	)
 	(segment
+		(start 149.62016 71.7212)
+		(end 152.84516 71.7212)
+		(width 0.35)
+		(layer "F.Cu")
+		(net "Net-(AE1-FEED)")
+		(uuid "6ab5d885-e689-4996-824d-c7595cf71435")
+	)
+	(segment
 		(start 140.265001 62.15838)
 		(end 142.175161 62.15838)
 		(width 0.2)
@@ -51531,14 +51550,6 @@
 		(layer "F.Cu")
 		(net "Net-(U4-RFIN)")
 		(uuid "26a3885b-6398-420a-9688-869581ba2f01")
-	)
-	(segment
-		(start 149.62016 71.7212)
-		(end 152.84516 71.7212)
-		(width 0.35)
-		(layer "F.Cu")
-		(net "Net-(AE1-FEED)")
-		(uuid "6ab5d885-e689-4996-824d-c7595cf71435")
 	)
 	(zone
 		(layer "F.Cu")
