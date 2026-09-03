@@ -10339,7 +10339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q16JVUXIQ"
+		(property "Value" "MX25R1635FZUIL0"
 			(at 76.2 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10361,7 +10361,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+		(property "Datasheet" "https://www.macronix.com/Lists/Datasheet/Attachments/8702/MX25R1635F%2C%20Wide%20Range%2C%2016Mb%2C%20v1.6.pdf"
 			(at 87.63 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -10372,7 +10372,7 @@
 				)
 			)
 		)
-		(property "Description" "32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+		(property "Description" "16Mbit / 2MiB Ultra Low Power Serial NOR Flash Memory, Standard/Dual/Quad SPI, 1.65-3.6V, 33MHz"
 			(at 87.63 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10383,7 +10383,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2843335"
+		(property "LCSC" "C152595"
 			(at 87.63 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10621,7 +10621,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "32MHz"
+		(property "Value" "32MHz, 10pF"
 			(at 115.57 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10643,7 +10643,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20260323/688CCC4499BA77041AC465C19328DD85.pdf"
 			(at 119.38 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10654,7 +10654,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "32MHz crystal, 10pF, 40 ohm ESR max, C0 <= 3pF, 2.0x1.6mm 4-pad SMD; pins 2 and 4 grounded"
 			(at 119.38 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10664,7 +10664,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C383840"
+		(property "LCSC" "C54427949"
 			(at 119.38 52.07 0)
 			(hide yes)
 			(show_name no)

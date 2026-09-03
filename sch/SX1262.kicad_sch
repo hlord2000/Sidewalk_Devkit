@@ -4905,7 +4905,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0f4a170f8b3efa2349190a8115e046dc.pdf?productCode=C1986260"
 			(at 72.39 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4916,7 +4916,7 @@
 				)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+		(property "Description" "32MHz crystal, 10pF, 50 ohm ESR max, C0 <= 0.78pF, 2.0x1.6mm 4-pad SMD; pins 2 and 4 grounded"
 			(at 72.39 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4927,7 +4927,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C383840"
+		(property "LCSC" "C1986260"
 			(at 72.39 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6377,7 +6377,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5224443"
+		(property "LCSC" "C7434807"
 			(at 156.21 106.68 0)
 			(hide yes)
 			(show_name no)
